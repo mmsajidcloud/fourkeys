@@ -59,6 +59,7 @@ steps:
         # invoke install script
         GIT_SYSTEM='github' \
         CICD_SYSTEM='cloud-build' \
+        INCIDENT_SYSTEM='pagerduty' \
         PARENT_PROJECT='$PROJECT_ID' \
         FOURKEYS_PROJECT='$_TARGET_PROJECT' \
         FOURKEYS_REGION='us-central1' \
